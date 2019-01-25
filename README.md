@@ -1,4 +1,4 @@
-Things I have learned from : http://javascriptenlightenment.com/JavaScript_Enlightenment.pdf
+_Feel free to open pull requests if you have suggestions and/or corrections._
 
 ## Chapter I
 
