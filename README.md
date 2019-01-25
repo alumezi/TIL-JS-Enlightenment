@@ -28,3 +28,17 @@ _Feel free to open pull requests if you have suggestions and/or corrections._
   - We can also use `in` . This checks the prototype chain.
 - Object properties can be iterated using a for in loop. It iterates over the values that are iterable.
 - Besides the native objects there are also host objects. These can be found on the host environment such as the browser.
+
+## Chapter III
+
+- All objects inherit from Object.prototype
+- Example: If we add a property to Object.prototype we will be able to find that on a String
+  `Object.prototype.foo = 'foo';
+
+  var myString = 'bar';
+
+  console.log(myString.foo); // logs 'foo', being found at Object.prototype.foo via prototype chain `
+
+  - By changing Object.prototype you can build a new version of javascript. Therefore this is not a good practice. Unless you want to confuse people. Then it is very advisable.
+
+_Bonus : This book uses the word Grok which means : Understand (something) intuitively or by empathy._
