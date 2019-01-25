@@ -17,3 +17,5 @@ Things I have learned from : http://javascriptenlightenment.com/JavaScript_Enlig
 - Primitive values are equal when they are stored in the same locations. Complex values (objects) are not.
   Object values are equal by refrence.
 - An instance created from a constructor can have its own independent properties.
+
+## Chapter II
