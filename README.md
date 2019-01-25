@@ -7,7 +7,9 @@ _Feel free to open pull requests if you have suggestions and/or corrections._
   - An instance is constructed using the new keyword.
   - A constructed object is an `instanceof` the constructor that was used to construct that object.
 - Javascript has native constructors which are built in such as :
-  `Object() Number() String() Boolean() Array() Function() Date() RegExp() Error()`
+  ```javascript
+    Object() Number() String() Boolean() Array() Function() Date() RegExp() Error()
+  ```
   - We can construct objects using these ex. `var NUM = new Number();`. We call this a complex object.
   - We can also use these to build primitive values `var NUM = 2;` is a primitive value also built under the hood using its constructor.
   - The former its actually an object, the latter is of type "number".
@@ -33,11 +35,14 @@ _Feel free to open pull requests if you have suggestions and/or corrections._
 
 - All objects inherit from Object.prototype
 - Example: If we add a property to Object.prototype we will be able to find that on a String
-  `Object.prototype.foo = 'foo';
 
-  var myString = 'bar';
+  ```javascript
+  Object.prototype.foo = "foo";
 
-  console.log(myString.foo); // logs 'foo', being found at Object.prototype.foo via prototype chain `
+  var myString = "bar";
+
+  console.log(myString.foo); // logs 'foo', being found at Object.prototype.foo via prototype chain
+  ```
 
   - By changing Object.prototype you can build a new version of javascript. Therefore this is not a good practice. Unless you want to confuse people. Then it is very advisable.
 
