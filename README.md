@@ -1,5 +1,5 @@
-_This book is based on an older version of javascript but nonetheless it is very useful to learn the basics of javascript and especially objects_
-_I like to write what I have learned because it is scientifically proven that it enforces your knowledge, I suggest you try it too_
+_This book is based on an older version of Javascript but nonetheless it is very useful to learn the basics of Javascript and especially objects._
+_I like to write what I have learned because it is scientifically proven that it enforces your knowledge, I suggest you try it too._
 _Feel free to open pull requests if you have suggestions and/or corrections._
 
 ## Chapter I
@@ -51,7 +51,11 @@ _Feel free to open pull requests if you have suggestions and/or corrections._
 ## Chapter IV
 
 - Function instances have this properties arguments, constructor, length and these instance methods apply(), call(), toString()
-  - Functions are passed `this` and `arguments` as parameters, this book is based on an older version of javascript but we can see that these parameters are not passed ES6 arrow functions.
+  - Functions are passed `this` and `arguments` as parameters, this book is based on an older version of javascript but we can see that these parameters are not passed in ES6 arrow functions.
 - Functions always return a value, default is undefined.
+
+## Chapter V
+
+- The scope in Javascript works similar to the prototype chain, but these are two different things. Similar in the sense that what is defined in the containing object can be accessed to the functions. However you cannot access the variables defined in other functions that have no relations in the scope chain.
 
 _Bonus : This book uses the word Grok which means : Understand (something) intuitively or by empathy._
