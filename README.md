@@ -1,3 +1,5 @@
+_This book is based on an older version of javascript but nonetheless it is very useful to learn the basics of javascript and especially objects_
+_I like to write what I have learned because it is scientifically proven that it enforces your knowledge, I suggest you try it too_
 _Feel free to open pull requests if you have suggestions and/or corrections._
 
 ## Chapter I
@@ -45,5 +47,11 @@ _Feel free to open pull requests if you have suggestions and/or corrections._
   ```
 
   - By changing Object.prototype you can build a new version of javascript. Therefore this is not a good practice. Unless you want to confuse people. Then it is very advisable.
+
+## Chapter IV
+
+- Function instances have this properties arguments, constructor, length and these instance methods apply(), call(), toString()
+  - Functions are passed `this` and `arguments` as parameters, this book is based on an older version of javascript but we can see that these parameters are not passed ES6 arrow functions.
+- Functions always return a value, default is undefined.
 
 _Bonus : This book uses the word Grok which means : Understand (something) intuitively or by empathy._
