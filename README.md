@@ -1,4 +1,4 @@
-_This book is based on an older version of Javascript but nonetheless it is very useful to learn the basics of Javascript and especially objects._
+_Sometimes we rush to learn the new ES6 features without knowing where we all started. Here is a book from years ago and in short what I managed to learn and solidify from it. I am aware that some of the things here may be deprecated, in that case we will learn why we got rid of them._
 _I like to write what I have learned because it is scientifically proven that it enforces your knowledge, I suggest you try it too._
 _Feel free to open pull requests if you have suggestions and/or corrections._
 
