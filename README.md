@@ -80,4 +80,10 @@ _Feel free to open pull requests if you have suggestions and/or corrections._
 
   - **This was fixed later by either using the bind() method or arrow functions who retain the this value of the enclosing lexical context.**
 
+## Chapter VII
+
+- The scope chain, if you think about it, is not that different from the prototype chain. Both are simply a way for a value to be looked up by checking a systematic and hierarchical set of locations.
+- **The scope chain is also known as the lexical scope.**
+- Variables defined in functions are available in that function not outside. If they don't find a variable which is invoked they will look outside of the scope to find it. The last place they will look in is the global object.
+
 _Bonus : This book uses the word Grok which means : Understand (something) intuitively or by empathy._
