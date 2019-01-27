@@ -58,4 +58,26 @@ _Feel free to open pull requests if you have suggestions and/or corrections._
 
 - The scope in Javascript works similar to the prototype chain, but these are two different things. Similar in the sense that what is defined in the containing object can be accessed to the functions. However you cannot access the variables defined in other functions that have no relations in the scope chain.
 
+## Chapter VI
+
+- All variables except this and arguments follow lexical scope.
+- `this` inside two or more nested functions will refer to the global object.
+
+  ```javascript
+  var myObject = {
+    func1: function() {
+      console.log(this); // logs myObject
+      var func2 = (function() {
+        console.log(this); // logs window, and will do so from this point on
+        var func3 = (function() {
+          console.log(this); // logs window, as it’s the head object
+        })();
+      })();
+    }
+  };
+  myObject.func1();
+  ```
+
+  - **This was fixed later by either using the bind() method or arrow functions who retain the this value of the enclosing lexical context.**
+
 _Bonus : This book uses the word Grok which means : Understand (something) intuitively or by empathy._
